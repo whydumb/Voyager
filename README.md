@@ -28,7 +28,7 @@ Voyager는 기존 최첨단 기술보다 3.3배 더 많은 고유 아이템을 �
 In this repo, we provide Voyager code. This codebase is under [MIT License](LICENSE).
 
 # Installation
-Voyager requires Python ≥ 3.9 and Node.js ≥ 16.13.0. We have tested on Ubuntu 20.04, Windows 11, and macOS. You need to follow the instructions below to install Voyager.
+Voyager는 Python 3.9 이상과 Node.js 16.13.0 이상이 필요합니다. 우리는 Ubuntu 20.04, Windows 11, macOS에서 테스트를 완료했습니다. Voyager를 설치하려면 아래 지침을 따르세요.
 
 ## Python Install
 ```
