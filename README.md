@@ -11,29 +11,13 @@
 ______________________________________________________________________
 
 
-https://github.com/MineDojo/Voyager/assets/25460983/ce29f45b-43a5-4399-8fd8-5dd105fd64f2
-
-![](images/pull.png)
-
-
 </div>
+우리는 마인크래프트에서 세계를 지속적으로 탐험하고, 다양한 기술을 습득하며, 인간의 개입 없이 새로운 발견을 하는 최초의 LLM 기반 평생 학습 에이전트인 Voyager를 소개합니다. Voyager는 다음의 세 가지 핵심 구성 요소로 이루어져 있습니다:
 
-We introduce Voyager, the first LLM-powered embodied lifelong learning agent
-in Minecraft that continuously explores the world, acquires diverse skills, and
-makes novel discoveries without human intervention. Voyager consists of three
-key components: 1) an automatic curriculum that maximizes exploration, 2) an
-ever-growing skill library of executable code for storing and retrieving complex
-behaviors, and 3) a new iterative prompting mechanism that incorporates environment
-feedback, execution errors, and self-verification for program improvement.
-Voyager interacts with GPT-4 via blackbox queries, which bypasses the need for
-model parameter fine-tuning. The skills developed by Voyager are temporally
-extended, interpretable, and compositional, which compounds the agent’s abilities
-rapidly and alleviates catastrophic forgetting. Empirically, Voyager shows
-strong in-context lifelong learning capability and exhibits exceptional proficiency
-in playing Minecraft. It obtains 3.3× more unique items, travels 2.3× longer
-distances, and unlocks key tech tree milestones up to 15.3× faster than prior SOTA.
-Voyager is able to utilize the learned skill library in a new Minecraft world to
-solve novel tasks from scratch, while other techniques struggle to generalize.
+탐험을 극대화하는 자동 커리큘럼,
+복잡한 행동을 저장하고 호출할 수 있는 실행 가능한 코드로 구성된 지속적으로 확장되는 스킬 라이브러리,
+환경 피드백, 실행 오류, 자기 검증을 통합하여 프로그램을 개선하는 새로운 반복적 프롬프트 메커니즘.
+Voyager는 GPT-4와 블랙박스 쿼리를 통해 상호작용하므로 모델 파라미터 튜닝이 필요하지 않습니다. Voyager가 개발한 기술은 시간적으로 확장 가능하고 해석 가능하며, 구성 요소별로 결합되어 에이전트의 능력을 빠르게 확장하고, 재학습에 따른 망각을 줄여줍니다. 실험 결과, Voyager는 강력한 맥락 내 평생 학습 능력을 보여주며 마인크래프트에서 탁월한 능숙함을 보였습니다. Voyager는 기존 최첨단 기술보다 3.3배 더 많은 고유 아이템을 얻고, 2.3배 더 긴 거리를 여행하며, 기술 트리의 주요 단계를 최대 15.3배 더 빠르게 달성합니다. Voyager는 학습된 스킬 라이브러리를 새로운 마인크래프트 세계에서도 활용하여 새로운 작업을 처음부터 해결할 수 있으며, 다른 기술들은 이러한 일반화에 어려움을 겪습니다.
 
 In this repo, we provide Voyager code. This codebase is under [MIT License](LICENSE).
 
